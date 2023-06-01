@@ -53,7 +53,7 @@ export default function Home() {
               Track statistics for your business and projects by monitoring the
               number of hits from your URL with our click counter.
             </p>
-            <div className="mt-14 lg:mt-14 flex items-center lg:mx-auto lg:w-[70%] bg-white rounded-md lg:rounded-full overflow-auto">
+            <div className="mt-14 lg:mt-14 flex items-center lg:mx-auto lg:w-[70%] bg-white rounded-md lg:rounded-full overflow-auto shadow-xl shadow-white/20">
               <input
                 type="text"
                 placeholder="Paste your link here"

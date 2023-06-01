@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #f9f9f9;
+}
+
+li:hover {
+  text-decoration: underline;
+}

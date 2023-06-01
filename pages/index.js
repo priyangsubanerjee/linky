@@ -3,7 +3,7 @@ import { Popover } from "@headlessui/react";
 
 export default function Home() {
   return (
-    <main>
+    <main className="pb-28">
       <nav className="bg-white lg:px-28 px-6 lg:h-20 h-16 flex items-center">
         <div className="lg:hidden flex items-center mr-5">
           <button>
@@ -84,16 +84,16 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <img
-                    src="https://cdn-icons-png.flaticon.com/512/522/522579.png"
-                    className="h-9"
+                    src="https://cdn-icons-png.flaticon.com/512/3716/3716676.png"
+                    className="h-10"
                     alt=""
                   />
                   <p className="text-sm mt-4 font-serif">Referrer</p>
                 </div>
               </div>
 
-              <div className="mt-14">
-                <button className="bg-zinc-900 font-serif font-medium rounded h-14 w-full uppercase tracking-widest text-white shadow-md">
+              <div className="mt-14 px-6 lg:px-0">
+                <button className="bg-zinc-900 font-serif font-medium rounded h-14 w-full lg:w-fit lg:px-16 uppercase tracking-widest text-white shadow-md">
                   Sign Up
                 </button>
               </div>
@@ -105,6 +105,28 @@ export default function Home() {
               />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="mt-28 text-center lg:px-36 px-6">
+        <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-zinc-800 leading-[1.2]">
+          Just shorten an URL ?
+        </h1>
+        <p className="text-sm leading-6 mt-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+        </p>
+        <div className="lg:flex space-y-4 lg:space-y-0 items-center justify-center lg:space-x-2 mt-7">
+          <div className="h-16 w-full lg:w-[600px] rounded-md overflow-hidden bg-white border">
+            <input
+              type="text"
+              placeholder="Paste your link here"
+              className="w-full h-full px-5"
+              name=""
+              id=""
+            />
+          </div>
+          <button className="h-16 font-serif text-lg w-full lg:w-fit px-8 bg-zinc-800 text-white border rounded-md">
+            Shorten
+          </button>
         </div>
       </div>
     </main>

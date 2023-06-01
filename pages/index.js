@@ -111,10 +111,10 @@ export default function Home() {
         <h1 className="text-2xl lg:text-4xl font-serif font-semibold text-zinc-800 leading-[1.2]">
           Just shorten an URL ?
         </h1>
-        <p className="text-sm leading-6 mt-5">
+        <p className="text-xs leading-6 lg:text-sm lg:leading-8 text-zinc-700 mt-5">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
         </p>
-        <div className="lg:flex space-y-4 lg:space-y-0 items-center justify-center lg:space-x-2 mt-7">
+        <div className="lg:flex space-y-4 lg:space-y-0 items-center justify-center lg:space-x-2 mt-10">
           <div className="h-16 w-full lg:w-[600px] rounded-md overflow-hidden bg-white border">
             <input
               type="text"
@@ -127,6 +127,63 @@ export default function Home() {
           <button className="h-16 font-serif text-lg w-full lg:w-fit px-8 bg-zinc-800 text-white border rounded-md">
             Shorten
           </button>
+        </div>
+
+        <div className="hidden lg:grid grid-cols-1 gap-6 lg:grid-cols-3 mt-14 place-content-center place-items-center lg:w-[500px] lg:mx-auto">
+          <div className="flex items-center space-x-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 10.5V6.75a4.5 4.5 0 119 0v3.75M3.75 21.75h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H3.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+              />
+            </svg>
+
+            <span className="text-xs">Click count</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+              />
+            </svg>
+
+            <span className="text-xs">Location stats</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+              />
+            </svg>
+
+            <span className="text-xs">User acquisition</span>
+          </div>
         </div>
       </div>
     </main>

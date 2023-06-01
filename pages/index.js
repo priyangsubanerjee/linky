@@ -61,7 +61,7 @@ export default function Home() {
                 name=""
                 id=""
               />
-              <button className="bg-zinc-700 text-sm font-medium text-zinc-50 h-12 mr-1 px-6 rounded-md lg:rounded-full">
+              <button className="bg-zinc-900 text-sm font-medium text-zinc-50 h-12 mr-1 px-6 rounded-md lg:rounded-full">
                 Shorten
               </button>
             </div>
